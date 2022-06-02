@@ -1,0 +1,124 @@
+/*-------------
+    Aulas da 1 a 4 
+-------------------*/
+
+.text-red {
+    color: red;
+}
+
+.text-blue {
+    color: blue;
+    font-weight: bolder;
+}
+
+.btn {
+    margin-top: 3rem;
+    padding: 0.5rem 1rem;
+    width: 200px;
+}
+
+.btn-test__clicked {
+    background-color: aqua;
+}
+
+.input-user {
+    padding: 0.5rem 1rem;
+}
+
+.hr {
+    background-color: blue;
+}
+
+/*-------------
+    Aula 5 
+---------------*/
+
+.main-div {
+    text-align: center;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-inline,
+.d-inline-1 {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+
+.d-inline-1 {
+    position: relative;
+}
+
+.button-a5 {
+    padding: 20px 40px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.magenta {
+    background-color: magenta;
+}
+
+.black {
+    background-color: black;
+    color: #FFF;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+#flip,
+#painel {
+    background-color: blueviolet;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 5px;
+    text-align: center;
+}
+
+#painel {
+    display: none;
+    padding: 50px;
+}
+
+/*-------------
+    Aula 7 
+---------------*/
+.red-color {
+    color: red;
+}
+
+/*-------------
+    Aula 7 
+---------------*/
+
+table {
+    margin: 10px auto;
+}
+
+tr,
+th,
+td {
+    border: 1px solid #000;
+    padding: 5px 50px;
+}

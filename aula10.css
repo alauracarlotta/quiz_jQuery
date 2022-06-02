@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(178, 69, 241);
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.main-div {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.4);
+    display: block;
+    padding: 2rem;
+    margin: 10% auto 0px;
+    width: 500px;
+}
+
+.img-quiz {
+    left: 350px;
+    position: absolute;
+    transform: rotate(-15deg);
+    top: 8%;
+    width: 200px;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+button,
+#confirm {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    width: 300px;
+}
+
+button {
+    margin: 1% auto;
+}
+
+#confirm,
+#newGame {
+    background-color: #00c5d9;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin: 5% auto 1%;
+    transition: all 500ms ease;
+    width: 200px;
+}
+
+#confirm:hover,
+#newGame:hover {
+    background-color: #03a8d0;
+    color: #fac900;
+    transform: scale(1.2);
+}
+
+.answer-btn {
+    background-color: #dedede;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    margin-bottom: 1rem;
+}
+
+.answer-btn:hover {
+    background-color: #cdcdcd;
+}
+
+.answer-btn.selected {
+    background-color: #fac900;
+    color: orangered;
+    font-style: italic;
+    font-weight: bolder;
+    box-shadow: 5px 5px 5px rgb(226, 143, 35);
+}
+
+.error {
+    background-color: #F00;
+    box-shadow: 5px 5px 5px rgba(255, 0, 0, 0.657);
+}
+
+.correct {
+    background-color: rgb(46, 235, 46);
+    box-shadow: 5px 5px 5px rgba(4, 49, 0, 0.931);
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+    animation: correctBlink 0.5s infinite;
+}
+
+.congratulations {
+    color: rgb(46, 235, 46);
+    animation: youWin 0.5s infinite;
+}
+
+.you-lose {
+    color: #F00;
+}
+
+@keyframes correctBlink {
+    0%,
+    49% {
+        background-color: rgb(46, 235, 46);;
+    }
+    50%,
+    100%{
+        background-color: rgba(46, 235, 46, 0.596);
+    }
+}
+
+@keyframes youWin {
+    0%,
+    49% {
+        color: rgb(0, 168, 0);;
+    }
+    50%,
+    100%{
+        color: rgb(0, 117, 0);
+    }
+}
+
+#status {
+    padding: 20px;
+}
+
+#statusMessage {
+    color: #F00;
+}
+
+.hidden {
+    display: none !important;
+}

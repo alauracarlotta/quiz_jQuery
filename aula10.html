@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+    
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="aula10.css">
+
+    <title>QUIZ</title>
+</head>
+<body>
+    <img class="img-quiz" src="quiz.png" alt="">
+    <div class="main-div">
+        <div id="quiz" data-status="ok">
+            <h2 class="question"></h2>
+            <div class="answers">
+                <button class="answer-btn" id="answer0">res</button>
+                <button class="answer-btn" id="answer1">res</button>
+                <button class="answer-btn" id="answer2">res</button>
+                <button class="answer-btn" id="answer3">res</button>
+            </div>
+            <button id="confirm">Confirmar</button>
+        </div>
+        
+        <div class="hidden" id="status">
+            <h2 id="statusMessage">GAME OVER!!! </h2>
+            <button id="newGame">Novo Jogo</button>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/aula10.js"></script>
+</body>
+</html>

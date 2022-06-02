@@ -1,0 +1,6 @@
+Para adicionar ainda:
+
+- se o usuário não selecionar nenhuma das respostas, solicitar que ele selecione alguma
+- cronometro
+- pular uma pergunta
+- ter uma ajuda, ou seja, que tire duas opções dentre as 4 respostas

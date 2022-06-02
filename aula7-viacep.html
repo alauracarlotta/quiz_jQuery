@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Aprendendo jQuery</title>
+</head>
+<body>
+    <div class="main-div">
+        <h1>AJAX</h1>
+        <h2><span class="red-color">A</span>synchronous <span class="red-color">J</span>avaScript <span class="red-color">A</span>nd <span class="red-color">X</span>ML</h2>
+
+        <p>
+            <strong>
+                O AJAX trata de carregar dados em segundo plano e exibi-los na página da wb, sem recarregar a página inteira. Busca informação fora do seu site e traz pra sua página sem recarregar ela.
+            </strong>
+        </p>
+
+        <form method="get" action=".">
+            <fieldset>Preencha com o seu endereço: </fieldset>
+
+            <label>Cep: </label>
+            <input class="btn" name="cep" type="text" id="cep" value="" size="10" maxlength="9" />
+            
+            <br />
+
+            <label>Rua: </label>
+            <input class="btn" name="rua" type="text" id="rua" size="60" />
+            
+            <br />
+
+            <label>Bairro: </label>
+            <input class="btn" name="bairro" type="text" id="bairro" size="40" />
+            
+            <br />
+            
+            <label>Cidade: </label>
+            <input class="btn" name="cidade" type="text" id="cidade" size="40" />
+            
+            <br />
+
+            <label>Estado: </label>
+            <input class="btn" name="uf" type="text" id="uf" size="2" />
+            
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </form>
+    </div>
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/aula7-via_CEP.js"></script>
+</body>
+</html>
